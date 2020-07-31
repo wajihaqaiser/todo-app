@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Todo Application</title>
+    <link rel="stylesheet" href="style.css">
+    <link href='https://fonts.googleapis.com/css?family=Arizonia' rel='stylesheet'>
+    <link href='https://fonts.googleapis.com/css?family=Bungee Shade' rel='stylesheet'>
+    <link href='https://fonts.googleapis.com/css?family=Caveat Brush' rel='stylesheet'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+<div class="main">
+
+    <div>
+        <h1>Todo Application</h1>
+    </div>
+
+    <div>
+        <h3>TODO LIST</h3>
+    </div>
+
+    <div>
+        <input type="text" id="todoList" placeholder="Enter Todo" required >
+        <button onclick="addTodo()">Add Item</button>
+        <button onclick="deleteAll()">Delete All</button>
+    </div>
+
+    <div>
+        <ul id="list" style="list-style-type:none">
+
+        </ul>
+    </div>
+
+
+</div>
+
+<!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"></script> -->
+<!-- <script src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script> -->
+    <script src="app.js"></script>
+</body>
+</html>
